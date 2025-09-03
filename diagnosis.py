@@ -1,9 +1,6 @@
 from datetime import datetime
 from textwrap import dedent
 
-# ------------------------------
-# Utilities
-# ------------------------------
 YES_WORDS = {"yes", "y", "1", "true"}
 NO_WORDS = {"no", "n", "0", "false"}
 
@@ -37,9 +34,6 @@ def read_int(prompt: str, default: int | None = None, mn: int | None = None, mx:
             print("⚠️ Please enter an integer (e.g. 0, 1, 2 ...)")
 
 
-# ------------------------------
-# Knowledge Base
-# ------------------------------
 
 def master_symptoms():
     return {
@@ -266,11 +260,6 @@ RED_FLAGS = {
     ]
 }
 
-
-# ------------------------------
-# Engine
-# ------------------------------
-
 def ask_all_symptoms():
     qs = master_symptoms()
     answers: dict[str, bool] = {}
@@ -319,10 +308,6 @@ def explain_top(perc_scores: dict[str, float], top_n: int = 3):
     return blocks
 
 
-# ------------------------------
-# Reporting
-# ------------------------------
-
 def format_report(user_answers: dict[str, bool], results, red_flags):
     qs = master_symptoms()
     dt = datetime.now().strftime("%Y-%m-%d %H:%M")
@@ -352,10 +337,6 @@ def save_report(text: str, filename: str = "diagnosis_report.txt"):
         f.write(text)
     return filename
 
-
-# ------------------------------
-# CLI Menu
-# ------------------------------
 
 def main():
     print(dedent(
