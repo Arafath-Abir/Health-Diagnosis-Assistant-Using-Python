@@ -1,25 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Rogonirnoy — Rule-Based Symptom Checker (English CLI)
-----------------------------------------------------
-A simple, pure‑Python, rule-based symptom checker with English prompts.
-
-⚠️ Disclaimer: Educational/demo tool only. Not medical advice.
-
-Features
-- English CLI
-- 30+ symptom questions
-- ~15 common conditions with weighted rule scoring
-- Top 3 possible conditions with confidence scores
-- Red-flag detection and urgent advice
-- Option to save a report as .txt
-
-Run
-- Python 3.8+
-- `python diagnosis.py`
-"""
-
 from datetime import datetime
 from textwrap import dedent
 
