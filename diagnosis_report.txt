@@ -1,0 +1,50 @@
+Rogonirnoy — Symptom Checker Results
+Time: 2025-09-02 14:29
+
+Answers:
+- Do you have a fever?: Yes
+- Is the temperature very high (>=38.5°C / 101.3°F)?: Yes
+- Are you experiencing chills?: Yes
+- Do you have a cough?: No
+- Is the cough dry?: No
+- Do you have a sore or scratchy throat?: No
+- Do you have a runny nose?: Yes
+- Are you sneezing?: Yes
+- Do you have a headache?: Yes
+- Do you experience visual sensitivity or aura with headache?: Yes
+- Do you have body aches or muscle pain?: No
+- Are you unusually tired or fatigued?: No
+- Are you experiencing shortness of breath?: No
+- Do you have chest pain?: No
+- Do you hear wheezing sounds when breathing?: No
+- Are you having diarrhea?: No
+- Are you vomiting?: No
+- Do you feel nauseous?: Yes
+- Do you have abdominal pain?: No
+- Has your sense of smell or taste decreased?: No
+- Do you have a skin rash or hives?: No
+- Are you experiencing eye pain or blurred vision?: No
+- Do you have joint pain?: No
+- Do you have dry mouth or reduced urination (signs of dehydration)?: No
+- Are you urinating more frequently?: No
+- Do you feel excessive thirst?: No
+- Have you experienced unexplained weight loss?: No
+- Is there blood or dark color in stool?: No
+- Have you recently traveled to an area with outbreaks?: No
+- Have you had many mosquito bites recently?: No
+- Is your neck stiff?: Yes
+- Are you sensitive to bright light?: Yes
+- Are you over 60 years old?: No
+- Do you have chronic conditions (diabetes/heart/kidney/asthma)?: No
+
+Top possible findings:
+• Migraine: approx. 100.0% (severity: low)
+  Advice: Rest in a quiet/dark room and hydrate. See specialist if recurrent.
+• Meningitis (Red Flag): approx. 90.5% (severity: critical)
+  Advice: Neck stiffness with high fever and light sensitivity → go to ER immediately.
+• Sinusitis: approx. 88.9% (severity: low)
+  Advice: Steam inhalation, saline nasal spray; see ENT if persistent.
+
+⚠️ Red flag detected: consider urgent medical attention.
+
+Disclaimer: This is not medical advice. See a doctor for concerning symptoms.
