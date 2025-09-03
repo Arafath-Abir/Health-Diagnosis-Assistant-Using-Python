@@ -427,6 +427,5 @@ def main():
             print("Thank you. Stay healthy! ✨")
             break
 
-
 if __name__ == "__main__":
     main()
